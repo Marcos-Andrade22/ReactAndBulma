@@ -2,8 +2,8 @@ import React from "react";
 
 const Hero = ({ children }) => {
     return (
-        <section class="hero">
-            <div class="hero-body column has-text-centered">
+        <section className="hero">
+            <div className="hero-body column has-text-centered">
                 {children}
             </div>
         </section>

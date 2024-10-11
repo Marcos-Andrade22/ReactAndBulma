@@ -4,7 +4,7 @@ const Header = ({className, children}) => {
 
     return (
         <div className={`header ${className}`}>
-            <div class="notification is-primary">
+            <div className="notification is-primary">
                 {children}
             </div>
         </div>

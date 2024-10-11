@@ -36,7 +36,7 @@ const ListPage = () => {
         ))}
       </ul>
 
-          <Button onClick={limparAlunos} label={"Limpar Alunos"}/>
+        <Button onClick={limparAlunos} label={"Limpar Alunos"}/>
         <Button onClick={goToHomePage} label={"Voltar para a página principal"} />
     </>
   );
